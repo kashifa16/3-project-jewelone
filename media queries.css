@@ -165,13 +165,14 @@
     }
 
     .ad-text h1 {
-        font-size: 40px;
-        width: 30vh;
+        font-size: 28px;
+        width: 28vh;
     }
 
     .ad-text p {
         width: 30vh;
         font-size: 15px;
+       text-align:start;
     }
 
     .ad-text button {
@@ -222,24 +223,26 @@
     }
 
     .video-title {
-        width: 30vh;
+        width: 53vh;
     }
 
     .video-title h1 {
-        font-size: 37px;
-        width: 30vh;
+        font-size: 30px;
+/*         width: 30vh; */
         margin: 10px;
     }
 
     .video-title p {
-        width: 30vh;
-        font-size: 20px;
+        width: 43vh;
+        font-size: 16px;
         margin: 10px;
+       text-align:start;
     }
 
     video {
         width: 300px;
         height: 300px;
+       margin:auto;
     }
 
     .contact-info {
