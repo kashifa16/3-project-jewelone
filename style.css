@@ -652,8 +652,6 @@ video{
 .video-content{
     display: flex;
     justify-content: space-evenly;
-    /* background-color: rgb(22, 20, 20); */
-    height: 100vh;
 }
 .video-title {
     width: 100vh;
