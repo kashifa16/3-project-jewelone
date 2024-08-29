@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewel One- Earring</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media queries.css">
+
+</head>
+<style>
+    @media only screen and (max-width:575px) {
+        .flex-box {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section h1 {
+            font-size: 20px;
+            margin-top: 20%;
+            text-decoration: underline;
+        }
+
+        section h6 {
+           display: none;
+        }
+    }
+    @media only screen and (min-width:576px) and (max-width:900px) {
+        section h1 {
+            font-size: 30px;
+            margin-top: 15%;
+            text-decoration: underline;
+        }
+
+        section h6 {
+           display: none;
+        }
+    }
+    @media only screen and (min-width:900px) and (max-width:1200px) {
+        section h1 {
+            font-size: 40px;
+            margin-top: 15%;
+            text-decoration: underline;
+        }
+
+        section h6 {
+           display: none;
+        }
+    }
+
+
+    
+
+    .boximage img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        object-fit: cover;
+        transition: transform 1s;
+        cursor: pointer;
+    }
+
+    .boximage {
+        max-width: 200px;
+        max-height: 300px;
+        padding: 25px;
+        margin: 25px;
+        border: 1px solid black;
+        border-radius: 15px;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boximage h4 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .boximage:hover img {
+        transform: scale(1.2);
+    }
+
+    .boximage i {
+        padding: 10px;
+        float: right;
+        font-size: 20px;
+        color: rgba(32, 31, 31, 0.521);
+
+    }
+
+    .boximage i:hover {
+        color: red;
+        cursor: pointer;
+    }
+
+    .boximage button {
+        padding: 2px 5px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+    .boximage button:hover {
+        background-color: #858a92;
+        cursor: pointer;
+        color: white;
+    }
+
+    .flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .view-button {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .view-button a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 800px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px 15px;
+        background-color: white;
+    }
+
+    .view-button a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-top: 6%;
+        text-align: center;
+    }
+
+    h6 {
+        border-bottom: 3px solid rgb(214, 126, 126);
+        width: 350px;
+        margin: auto;
+        border-radius: 6%;
+        /* margin-top: 8%; */
+    }
+</style>
+
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <h1>Jewel One</h1>
+            </div>
+            <div class="navigation">
+                <ul class="navlist">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index-2.html"
+                            style="background-color: #858a92; color: white; padding: 5px; border-radius: 5px;">Earrings</a>
+                    </li>
+                    <li><a href="/index-3.html">Neck-set</a></li>
+                    <li><a href="#brand">Brands</a></li>
+                    <li><a href="/index-4.html">Sign in</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-icon">
+                <label for="dropdown">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-x" id="x-bar"></i>
+                </label>
+                <input type="checkbox" id="dropdown" />
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+    </header>
+    <Section>
+        <h1>Most Amazing Collection of Earrings</h1>
+        <h6></h6>
+        <div class="flex-box">
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (1).jfif" alt="">
+
+                <h4>Natural Stones Earrings</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (2).jfif" alt="">
+
+                <h4>New Pearl Fashion Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (3).jfif" alt="">
+
+                <h4>Earring Made of Rose-Gold</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (4).jfif" alt="">
+
+                <h4>Earring With Pearl Finished</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (5).jfif" alt="">
+
+                <h4>Butterfly shaped Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (6).jfif" alt="">
+
+                <h4>Stud type Rounded Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (7).jfif" alt="">
+
+                <h4>Stud type Short Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (8).jfif" alt="">
+
+                <h4>Earring with Pearl Finished</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-1 (9).jfif" alt="">
+
+                <h4>Rose gold type Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-ring-2 (1).jfif" alt="">
+
+                <h4>Black new Fashion Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/cart-image (4).jfif" alt="">
+
+                <h4>Stunning natural Diamond earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/download (4).jfif" alt="">
+
+                <h4>Stud type Gold Stone Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-ring-2 (2).jfif" alt="">
+
+                <h4>Black Stone Earring New</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-ring-2 (3).jfif" alt="">
+
+                <h4>Black Stone Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-ring-2 (4).jfif" alt="">
+
+                <h4>New Hallow Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-ring-2 (6).jfif" alt="">
+
+                <h4>Stunning type Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-ring-2 (7).jfif" alt="">
+
+                <h4>Glowing Stone Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-new (1).jfif" alt="">
+
+                <h4>Natural Glow Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-new (3).jfif" alt="">
+
+                <h4>Magic Stone Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+            <div class="boximage">
+                <img src="/images/ear-rings-new (4).jfif" alt="">
+
+                <h4>Sting Diamond Earring</h4>
+                <button>Buy Now</button> <span><i class='bx bxs-heart'></i></span>
+            </div>
+
+        </div>
+        <div class="view-button">
+            <a href="#"> View More </a>
+        </div>
+    </Section>
+    <footer>
+        <div class="helpcenter">
+            <h1>Jewel One</h1>
+            <a href="#">Visit Help Center</a>
+        </div>
+        <div class="footer_ul">
+            <div class="company">
+                <span>Company</span>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Offering</a></li>
+                    <li><a href="#">New Design</a></li>
+                    <li><a href="#">AI</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <span>Products</span>
+                <ul>
+                    <li><a href="#">Bangles</a></li>
+                    <li><a href="#">Rings</a></li>
+                    <li><a href="#">Platinum</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Silver Business</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <span>Global Citizenship</span>
+                <ul>
+                    <li><a href="#">Safety</a></li>
+                    <li><a href="#">Trusted</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <span>Conatct US</span>
+                <ul>
+                    <li><a href="#">Jewel One </a></li>
+                    <li><a href="#">#46 Broad Bazar Chennai</a></li>
+                    <li><a href="#">90876 12345</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social_location">
+            <div class="social_icons">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="location">
+                <a href="#"><i class='bx bx-world'></i> English</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> Chennai</a>
+
+            </div>
+        </div>
+        <div class="appstore">
+            <img src="/images/google play store.svg" alt="">
+            <img src="/images/apple store icon.svg" alt="">
+        </div>
+    </footer>
+
+</body>
+
+</html>

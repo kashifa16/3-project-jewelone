@@ -218,23 +218,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
         margin: 10px;
     }
 
-    .video-title {
-        width: 30vh;
-    }
-
     .video-title h1 {
-        font-size: 37px;
+        font-size: 25px;
         text-align: start;
 
     }
 
     .video-title p {
         text-align: start;
-        font-size: 20px;
+        font-size: 15px;
+        width: 350px;
     }
 
     video {
@@ -1133,17 +1130,6 @@
         width: 10vh;
     }
 
-    /* .brand-logo h1 {
-        width: 30vh;
-        font-size: 30px;
-    } */
-
-    /* .logo-brands {
-        flex-direction: column;
-        margin: auto;
-        display: block;
-        width: 40vh;
-    } */
 
     .online-text h1 {
         /* width: 30vh; */
@@ -1201,36 +1187,20 @@
     } */
 
     .video-title h1 {
-        font-size: 45px;
+        font-size: 25px;
     }
 
     .video-title p {
-       font-size: 20px;
+       font-size: 13px;
        text-align: start;
     }
 
 
     .contact-info {
-        /* flex-direction: column; */
+        flex-direction: column;
       justify-content: center;
       align-items: center;
     }
-
-    /* .contact-icon {
-        width: 60vh;
-    }
-
-    .Message {
-        width: 40vh;
-    }
-
-    .Message span {
-        font-size: 30px;
-    }
-
-    .Message i {
-        font-size: 35px;
-    } */
 
     form h1 {
         font-size: 20px;
@@ -1239,11 +1209,11 @@
     }
 
     form input {
-        width: 66vh;
+        width: 100%;
     }
 
     form button {
-        width: 66vh;
+        width: 100%;
         margin: 5px;
     }
 

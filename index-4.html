@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewel One</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/media queries.css">
+
+
+</head>
+<style>
+    @media only Screen and (max-width:575px) {
+        .flex-container img {
+            display: none;
+        }
+
+        .login-info input {
+            width: 250px;
+        }
+
+        .login-info {
+            margin-top: 10%;
+            padding: 30px;
+        }
+    }
+
+    @media screen and (min-width:576px) and (max-width:757px) {
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .flex-container {
+        display: flex;
+        margin: auto;
+        margin-top: 5%;
+        max-width: fit-content;
+        border: 2px solid rgb(235, 161, 161);
+        border-radius: 15px;
+        background-color: rgba(235, 161, 161, 0.788);
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        width: 400px;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid rgb(235, 161, 161);
+        border-radius: 5px;
+    }
+
+    .login-info a {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        padding: 4px;
+        border: 1px solid rgb(202, 112, 112);
+        border-radius: 15px;
+        width: 300px;
+        text-align: center;
+        font-size: 15px;
+        background-color: rgb(235, 161, 161);
+    }
+
+    .login-info a:hover {
+        background-color: white;
+        color: rgb(202, 112, 112);
+    }
+
+    .reg span {
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+
+    }
+</style>
+
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <h1>Jewel One</h1>
+            </div>
+            <div class="navigation">
+                <ul class="navlist">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index-2.html">Earrings</a></li>
+                    <li><a href="/index-3.html">Neck-set</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="/index-4.html" style="background-color: #858a92; color: white; padding:5px;">Sign
+                            in</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-icon">
+                <label for="dropdown">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-x" id="x-bar"></i>
+                </label>
+                <input type="checkbox" id="dropdown" />
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+    </header>
+    <Section>
+        <div class="flex-container">
+
+            <img src="/images/login-page.jfif" alt="" width="45%" height="45%"
+                style="border-top-right-radius: 130px; border-bottom-left-radius:130px ;">
+
+
+            <div class="login-info" style="display: flex; flex-direction: column; gap: 20px; padding: 30px;">
+                <h1 style="width: 350px; text-align: center;">Log into JewelOne to Get Upto date Information</h1>
+
+                <input type="email" name="" id="" placeholder="Enter Your E-mail">
+                <input type="password" placeholder="Enter Your password">
+
+                <a href="#">Log-In</a>
+                <a href="#">Continue With Google Account</a>
+
+                <p class="reg">Dont Have an Account? <span>Register</span> </p>
+            </div>
+
+        </div>
+    </Section>
+    <footer>
+        <div class="helpcenter">
+            <h1>Jewel One</h1>
+            <a href="#">Visit Help Center</a>
+        </div>
+        <div class="footer_ul">
+            <div class="company">
+                <span>Company</span>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Offering</a></li>
+                    <li><a href="#">New Design</a></li>
+                    <li><a href="#">AI</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <span>Products</span>
+                <ul>
+                    <li><a href="#">Bangles</a></li>
+                    <li><a href="#">Rings</a></li>
+                    <li><a href="#">Platinum</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Silver Business</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <span>Global Citizenship</span>
+                <ul>
+                    <li><a href="#">Safety</a></li>
+                    <li><a href="#">Trusted</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <span>Conatct US</span>
+                <ul>
+                    <li><a href="#">Jewel One </a></li>
+                    <li><a href="#">#46 Broad Bazar Chennai</a></li>
+                    <li><a href="#">90876 12345</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social_location">
+            <div class="social_icons">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="location">
+                <a href="#"><i class='bx bx-world'></i> English</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> Chennai</a>
+
+            </div>
+        </div>
+        <div class="appstore">
+            <img src="/images/google play store.svg" alt="">
+            <img src="/images/apple store icon.svg" alt="">
+        </div>
+    </footer>
+
+</body>
+
+</html>
