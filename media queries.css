@@ -69,16 +69,23 @@
     }
 
     .background h1 {
-        font-size: 37px;
-        width: 30vh;
-    }
-
-    .background p {
-        width: 30vh;
-        line-height: 30px;
+        font-size: 22px;
+        /* width: 200px; */
         text-align: start;
     }
 
+    .background p {
+        font-size: 10px;
+        line-height: 22px;
+        text-align: start;
+    }
+
+    .background button{
+        font-size: 12px;
+        padding: 5px;
+        margin-top: 2%;
+       width: 100px;
+    }
     .threebox {
         flex-direction: column;
         justify-content: center;
@@ -302,6 +309,9 @@
         width: 100%;
         height: 100%;
     }
+    .background{
+        height: 40vh;
+    }
 
     .navbar {
         width: 100%;
@@ -365,11 +375,13 @@
     }
 
     .background h1 {
-      width: 400px;
+     text-align: center;
+      font-size: 30px;
+      margin-top: 20%;
     }
 
     .background p {
-        width: 38vh;
+        font-size: 17px;
         text-align: justify;
         line-height: 48px;
     }
@@ -473,25 +485,25 @@
     }
 
     .ad-img img {
-        width: 80%;
+        width: 50%;
         height: 70%;
         margin: auto;
         display: block;
     }
 
     .ad-text h1 {
-        font-size: 40px;
-        width: 68vh;
+        font-size: 35px;
+        /* width: 68vh; */
     }
 
     .ad-text p {
-        width: 65vh;
-        font-size: 25px;
+        /* width: 65vh; */
+        font-size: 20px;
     }
 
     .ad-text button {
-        font-size: 25px;
-        width: 30vh;
+        font-size: 20px;
+        /* width: 30vh; */
     }
 
     .brand-logo h1 {
@@ -556,24 +568,24 @@
        align-items: center;
     }
 
-    .video-title {
+    /* .video-title {
         width: 55vh;
-    }
+    } */
 
     .video-title h1 {
-        font-size: 37px;
-        width: 57vh;
+        font-size: 25px;
+        /* width: 57vh; */
         margin: 10px;
     }
 
     .video-title p {
-        width: 56vh;
+        /* width: 56vh; */
         font-size: 20px;
         margin: 10px;
     }
 
     video {
-        width: 71vh;
+        /* width: 71vh; */
         height: 300px;
     }
 
@@ -582,11 +594,7 @@
         margin-top: 15%;
         margin: auto;
         display: block;
-        width: 60vh;
-    }
-
-    .contact-icon {
-        width: 60vh;
+        width: 60%;
     }
 
     .Message {
@@ -594,21 +602,16 @@
     }
 
     .Message span {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .Message i {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     form h1 {
-        font-size: 30px;
-        /* width: 30vh; */
+        font-size: 20px;
     }
-
-    /* form input {
-        width: 39vh;
-    } */
 
     form button {
         width: 30vh;
@@ -640,6 +643,9 @@
         /* padding: 56px; */
     }
 
+    .background{
+        height: 40vh;
+    }
     .navbar {
         width: 100%;
         /* justify-content: space-between; */
@@ -704,10 +710,11 @@
     .background h1 {
         font-size: 37px;
         text-align: center;
+        margin-top:185px ;
     }
 
     .background p {
-        width: 42vh;
+       
         font-size: 18px;
         line-height: 51px;
     }
