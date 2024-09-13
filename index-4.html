@@ -50,7 +50,12 @@
         justify-content: center;
         align-items: center;
     }
-
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+}
     input {
         width: 400px;
         padding: 10px;
@@ -127,10 +132,10 @@
 
                 <input type="email" name="" id="" placeholder="Enter Your E-mail">
                 <input type="password" placeholder="Enter Your password">
-
-                <a href="#">Log-In</a>
-                <a href="#">Continue With Google Account</a>
-
+                <div class="buttons">
+                    <a href="#">Log-In</a>
+                    <a href="#">Continue With Google Account</a>
+                </div>
                 <p class="reg">Dont Have an Account? <span>Register</span> </p>
             </div>
 
@@ -198,13 +203,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="location">
-                <a href="#"><i class='bx bx-world'></i> English</a>
-                <a href="#"><i class="fa-solid fa-location-dot"></i> Chennai</a>
-
-            </div>
         </div>
-        <div class="appstore">
+        <div class="app-store">
             <img src="/images/google play store.svg" alt="">
             <img src="/images/apple store icon.svg" alt="">
         </div>
